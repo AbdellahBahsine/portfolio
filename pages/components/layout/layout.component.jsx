@@ -30,7 +30,7 @@ const Layout = ({children}) => {
                     <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato:wght@300;400;700&family=Merriweather&display=swap" rel="stylesheet" />
                 </Head>
                 <Header handleClick={handleClick} isOpen={isOpen} />
-                <MobileNav isOpen={isOpen} />
+                <MobileNav isOpen={isOpen} /> 
                 <main className={styles.main}>
                     {children}
                 </main>

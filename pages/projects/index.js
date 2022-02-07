@@ -1,6 +1,7 @@
 import styles from './projects.module.css';
 
 import SharkStore from '../../public/images/shark-store.png';
+import LeTravelerGuide from '../../public/images/le-traveler-guide.png';
 import DogsFinder from '../../public/images/Dogs-finder.png';
 import PersonalPortfolio from '../../public/images/personal-portfolio.png';
 import MyTasks from '../../public/images/myTasks.png';
@@ -31,6 +32,20 @@ const Projects = () => {
                                     <a className={styles.card__button} href="https://github.com/AbdellahBahsine/shark-store" target="_blank"><i className={`${styles.icon} fas fa-code`}></i> View Code</a>
                                 </div>
                             </div>
+                        </div>
+
+                        <div className={styles.projects__card}>
+                            <div className={styles.card__image}>
+                                <img className={styles.img} src={LeTravelerGuide.src} alt="le-traveler-guide" />
+                            </div>
+                            <div className={styles.card__content}>
+                                <h3 className={styles.card__title}>Le Traveler Guide</h3>
+                                <p className={styles.card__text}>Le Traveler Guide is a blog created using laravel and blade template. This blog has many features like creating blogs and deleting them, commenting on blogs... <br/><br/></p>
+                                <div className={styles.card__buttons}> 
+                                    <a className={styles.card__button} href="https://le-traveler-guide.herokuapp.com/" target="_blank"><i className={`${styles.icon} fas fa-desktop`}></i> View Website</a>
+                                    <a className={styles.card__button} href="https://github.com/AbdellahBahsine/le-traveler-guide" target="_blank"><i className={`${styles.icon} fas fa-code`}></i> View Code</a>
+                                </div>
+                            </div> 
                         </div>
 
                         <div className={styles.projects__card}>

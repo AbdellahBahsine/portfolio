@@ -33,9 +33,9 @@ const Work = () => {
                         </div>
                         <div className={styles.card__content}>
                             <h3 className={styles.card__title}>Le Traveler Guide</h3>
-                            <p className={styles.card__text}>Le Traveler Guide is a simple blog to create articles and comment on them. It's built using laravel and blade template.<br/><br/></p>
+                            <p className={styles.card__text}>Le Traveler Guide is a simple blog to create articles and comment on them. It's built using React and Laravel.<br/><br/></p>
                             <div className={styles.card__buttons}> 
-                                <a className={styles.card__button} href="https://le-traveler-guide.herokuapp.com/" target="_blank"><i className={`${styles.icon} fas fa-desktop`}></i> View Website</a>
+                                <a className={styles.card__button} href="https://le-traveler-guide.netlify.app/" target="_blank"><i className={`${styles.icon} fas fa-desktop`}></i> View Website</a>
                                 <a className={styles.card__button} href="https://github.com/AbdellahBahsine/le-traveler-guide" target="_blank"><i className={`${styles.icon} fas fa-code`}></i> View Code</a>
                             </div>
                         </div>
